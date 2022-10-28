@@ -39,7 +39,7 @@ def convertion(message: telebot.types.Message):
         values = message.text.split(" ")
 
         if len(values) != 3:
-            raise ConvertionExeption("Слишком много параметров")
+            raise ConvertionExeption("Введите по примеру из /help")
 
         quote, base, amount = values
         total_base = ValueConveter.convert(quote, base, amount)

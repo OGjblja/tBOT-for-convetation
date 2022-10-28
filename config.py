@@ -8,4 +8,4 @@ keys = {
     "тенге": "KZT"
 }
 
-TOKEN = "5615454281:AAExqUNqXtL_-j-EPI1LN4E9GTk5Z2vE1RI"
+TOKEN = "---> ENTER UR TOKEN HERE <---"
